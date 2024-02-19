@@ -2,7 +2,6 @@
   "name": "cois3850",
   "private": true,
   "version": "0.0.1",
-  "homepage": "https://BerryCool.github.io/cois3850",
   "type": "module",
   "scripts": {
     "dev": "vite",
