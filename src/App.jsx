@@ -9,12 +9,8 @@ function App() {
 
   return (
     <div className=" bg-gray-200">
-      <div className="z-10">
         <Navbar />
-      </div>
-      <div className="z-0">
         <Routes />
-      </div>
     </div>
   );
 }

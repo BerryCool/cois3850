@@ -1,13 +1,14 @@
 import React from "react";
 import NavMenu from "./NavMenu";
+import HamburgerMenu from "./HamburgerMenu";
+import { PiList } from "react-icons/pi";
+
 
 const Navbar = () => {
   return (
-    <div className="z-10 fixed flex justify-between p-10 bg-none h-14 w-full">
-      <div>Logo</div>
-      <div className="text-white text-4xl ">
-        <NavMenu />
-      </div>
+    <div className="h-full z-10 fixed h-[100vh] w-full h-16 flex justify-between">
+      <h1 className="text-2xl text-white p-10">logo</h1>
+      <HamburgerMenu />
     </div>
   );
 };
