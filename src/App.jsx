@@ -12,6 +12,7 @@ function App() {
       <div className="z-10">
         <Navbar />
         <Routes />
+        </div>
     </div>
   );
 }
