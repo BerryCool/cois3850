@@ -1,7 +1,7 @@
 import React from "react";
 
 const About = () => {
-  return <div className="pt-20">About</div>;
+  return <div className="bg-[#001118] h-full">About</div>;
 };
 
 export default About;

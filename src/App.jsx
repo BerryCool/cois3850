@@ -8,13 +8,9 @@ function App() {
   const [count, setCount] = useState(0);
 
   return (
-    <div className=" bg-gray-200">
-      <div className="z-10">
+    <div className="min-h-screen">
         <Navbar />
-      </div>
-      <div className="z-0">
         <Routes />
-      </div>
     </div>
   );
 }
