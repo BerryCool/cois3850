@@ -7,7 +7,7 @@ const NavMenu = () => {
   return (
     <>
       <Menu>
-        <Menu.Button className={"flex justify-end w-full "}>
+        <Menu.Button className={"flex justify-end w-full pt-10 px-10"}>
           <PiList className="hover:cursor-pointer" />
         </Menu.Button>
         <Transition
@@ -20,7 +20,7 @@ const NavMenu = () => {
         >
           <Menu.Items
             className={
-              " border rounded-lg border-black bg-opacity-50 bg-gray-800 p-5 flex flex-col gap-3 text-lg text-right "
+              "w-full border rounded-lg border-black bg-opacity-50 bg-gray-800 p-5 flex flex-col gap-3 text-lg text-right "
             }
           >
             <Menu.Item className="ui-active:bg-blue-500">

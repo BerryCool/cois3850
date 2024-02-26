@@ -6,12 +6,13 @@ const Landing = () => {
   return (
     <div className="bg-[#001118] text-white">
       <div
-        className="flex flex-col h-full items-center justify-center z-0 ] bg-[url('./assets/images/portrait-person-with-depression.jpg')] bg-cover bg-center relative"
+        className="flex flex-col h-full items-center justify-center z-0 min-h-[100vh] bg-[url('./assets/images/portrait-person-with-depression.jpg')] bg-cover bg-center relative"
         style={{
           WebkitMaskImage: `linear-gradient(to top, transparent, #001118 30%)`,
         }}
       >
-        <div className="flex flex-col items-center justify-center min-h-[100vh] backdrop-filter backdrop-blur-sm text-white">
+        <div className="flex flex-col items-center justify-center min-h-[100vh] backdrop-filter  text-white">
+          {/* backdrop-blur-sm */}
           <div className="font-barcode text-8xl text-center  relative">
             <h1>
               LEARN THE SIGNS OF
